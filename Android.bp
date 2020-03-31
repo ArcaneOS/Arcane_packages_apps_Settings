@@ -27,11 +27,20 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: ["src/**/*.java",
+           "exTHmSettings/src/**/*.java",
+           "src/**/*.kt"],
+
+    aaptflags: ["--extra-packages org.exthmui.settings"],
 
     resource_dirs: ["res",
-                    "TouchGestures/res"
+                    "TouchGestures/res",
+                    "exTHmSettings/res"
     ],
+
+    optimize: {
+        proguard_flags_files: ["proguard-core.flags"],
+    },
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
