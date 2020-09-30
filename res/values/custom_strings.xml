@@ -146,4 +146,8 @@
     <string name="build_type">Build Type</string>
     <string name="build_type_summary">OFFICIAL</string>
     
+    <!-- Clock style -->
+    <string name="clock_style_title">Clock style</string>
+    <string name="clock_style_summary">Customize lockscreen clock</string>
+
 </resources>
