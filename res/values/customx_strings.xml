@@ -296,4 +296,9 @@
     <string name="power_menu_shortcut_unavailable">Disabled because lock screen is not protected</string>
     <string name="power_menu_emergency_title">Emergency</string>
 
+    <!-- Navbar length -->
+    <string name="navbar_length">Gesture bar length</string>
+    <string name="short_label">Short</string>
+    <string name="long_label">Long</string>
+    
 </resources>
