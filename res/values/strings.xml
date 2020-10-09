@@ -11916,7 +11916,7 @@
     <string name="hwui_force_dark_summary">Overrides the force-dark feature to be always-on</string>
 
     <!-- If blurs are supported on SurfaceFlinger. [CHAR LIMIT=60] -->
-    <string name="enable_blurs_on_windows_title">Enable blurs</string>
+    <string name="enable_blur_on_windows_title">Blur UI</string>
     <!-- If blurs are supported on SurfaceFlinger, summary. [CHAR LIMIT=NONE] -->
     <string name="enable_blurs_on_windows_summary">Enables window blurs at compositor level. Requires device reboot.</string>
 
