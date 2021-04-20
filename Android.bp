@@ -63,6 +63,7 @@ android_library {
         "faceunlock_framework",
         "vendor.lineage.fastcharge-V1.0-java",
         "lottie",
+        "androidx.dynamicanimation_dynamicanimation",
     ],
 
     libs: [
