@@ -12227,4 +12227,10 @@
     <string name="bluetooth_connect_access_dialog_negative">Don\u2019t connect</string>
     <!-- Strings for Dialog connect button -->
     <string name="bluetooth_connect_access_dialog_positive">Connect</string>
+
+    <!-- Theme Settings -->
+    <string name="theme_settings_title">Secret Shop</string>
+    <string name="theme_settings_summary">Roquelaire, would you like a cracker?</string>
+    <string name="system_customization_category">System Customization</string>
+
 </resources>
