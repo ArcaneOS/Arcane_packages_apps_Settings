@@ -29,6 +29,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="@dimen/homepage_spacer_height"
+        android:scrollbarThumbVertical="@android:color/transparent"  
+        android:scrollbarThumbHorizontal="@android:color/transparent"
         app:layout_behavior="com.android.settings.widget.FloatingAppBarScrollingViewBehavior">
 
         <LinearLayout
