@@ -24,17 +24,23 @@
     <Button
         android:id="@+id/dark_ui_turn_on_button"
         style="@style/ActionPrimaryButton"
-        android:layout_marginStart="@dimen/screen_margin_sides"
-        android:layout_width="wrap_content"
+	android:background="@drawable/chip_bg"
+        android:backgroundTint="?android:attr/colorAccent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical" />
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="center_vertical|center_horizontal" />
 
     <Button
         android:id="@+id/dark_ui_turn_off_button"
         style="@style/ActionSecondaryButton"
-        android:layout_marginStart="@dimen/screen_margin_sides"
-        android:layout_width="wrap_content"
+	android:background="@drawable/chip_bg"
+        android:backgroundTint="?android:attr/colorAccent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical" />
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="center_vertical|center_horizontal" />
 
 </LinearLayout>

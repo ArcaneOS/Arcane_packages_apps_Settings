@@ -26,6 +26,21 @@
         android:layout="@layout/twilight_mode_location_off"
         settings:allowDividerBelow="true"
         settings:controller="com.android.settings.display.TwilightLocationPreferenceController"/>
+    
+    <com.android.settingslib.widget.LayoutPreference
+        android:selectable="false"	
+	android:key="screen_display"
+        android:layout="@layout/octavi_image_preview"
+        settings:allowDividerBelow="false"
+        settings:controller="com.android.settings.DisplayImagePreference"/>       
+
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="dark_ui_activated"
+        android:title="@string/dark_ui_title"
+        android:selectable="false"
+        android:layout="@layout/dark_ui_activation_button"
+        settings:allowDividerBelow="false"
+        settings:controller="com.android.settings.display.darkmode.DarkModeActivationPreferenceController"/>
 
     <DropDownPreference
         android:key="dark_ui_auto_mode"
@@ -33,8 +48,9 @@
         android:summary="%s"
         android:entries="@array/dark_ui_scheduler_preference_titles"
         android:entryValues="@array/dark_ui_scheduler_preference_titles"
-        settings:allowDividerAbove="true"
+        settings:allowDividerAbove="false"
         settings:controller="com.android.settings.display.darkmode.DarkModeScheduleSelectorController"
+        settings:iconSpaceReserved="false" 
         settings:keywords="@string/keywords_dark_ui_mode"/>
 
     <Preference
@@ -47,19 +63,11 @@
         android:title="@string/night_display_end_time_title"
         settings:searchable="false"/>
 
-    <com.android.settingslib.widget.LayoutPreference
-        android:key="dark_ui_activated"
-        android:title="@string/dark_ui_title"
-        android:selectable="false"
-        android:layout="@layout/dark_ui_activation_button"
-        settings:allowDividerBelow="true"
-        settings:controller="com.android.settings.display.darkmode.DarkModeActivationPreferenceController"/>
-
     <com.android.settingslib.widget.FooterPreference
             android:key="dark_ui_footer"
             android:title="@string/dark_ui_text"
             android:selectable="false"
             settings:searchable="false"
-            settings:allowDividerAbove="true"/>
+            settings:allowDividerAbove="false"/>
 
 </PreferenceScreen>
