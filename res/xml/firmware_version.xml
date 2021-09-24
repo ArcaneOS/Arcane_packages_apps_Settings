@@ -21,6 +21,13 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+
+    <!-- Arcane logo -->
+    <PreferenceScreen
+        android:key="arcane_logo"
+        android:enabled="false"
+        android:layout="@layout/arcane_logo" />
+
     <!-- Arcane Maintainer -->
     <Preference
         android:key="magus"
