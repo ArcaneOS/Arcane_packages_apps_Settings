@@ -134,4 +134,8 @@
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 
+    <!-- Arcane maintainer -->
+    <string name="magus">Magus</string>
+    <string name="maintainer_name">dlwlrma123</string>
+    
 </resources>

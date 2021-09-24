@@ -21,6 +21,13 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Arcane Maintainer -->
+    <Preference
+        android:key="magus"
+        android:title="@string/magus"
+        android:summary="@string/maintainer_name"
+        settings:enableCopying="true" />
+        
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
