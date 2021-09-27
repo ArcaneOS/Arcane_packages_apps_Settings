@@ -35,6 +35,13 @@
         android:summary="@string/maintainer_name"
         settings:enableCopying="true" />
         
+    <!-- Arcane Version -->
+    <Preference
+        android:key="arcane_version"
+        android:title="@string/arcane_version"
+        android:summary="@string/arcane_version_type"
+        settings:enableCopying="true" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"

@@ -138,4 +138,8 @@
     <string name="magus">Magus</string>
     <string name="maintainer_name">dlwlrma123</string>
     
+    <!-- Arcane version -->
+    <string name="arcane_version">ArcaneOS Version</string>
+    <string name="arcane_version_type">Wex</string>
+    
 </resources>
