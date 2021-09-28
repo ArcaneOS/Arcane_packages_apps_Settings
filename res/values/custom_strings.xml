@@ -142,4 +142,8 @@
     <string name="arcane_version">ArcaneOS Version</string>
     <string name="arcane_version_type">Wex</string>
     
+    <!-- Arcane version -->
+    <string name="build_type">Build Type</string>
+    <string name="build_type_summary">OFFICIAL</string>
+    
 </resources>

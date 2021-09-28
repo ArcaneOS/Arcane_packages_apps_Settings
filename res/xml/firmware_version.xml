@@ -42,6 +42,13 @@
         android:summary="@string/arcane_version_type"
         settings:enableCopying="true" />
 
+    <!-- Arcane Version -->
+    <Preference
+        android:key="arcane_build"
+        android:title="@string/build_type"
+        android:summary="@string/build_type_summary"
+        settings:enableCopying="true" />
+        
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
