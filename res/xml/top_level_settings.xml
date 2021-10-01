@@ -42,6 +42,7 @@
 
     <Preference
         android:key="top_level_theme"
+        android:layout="@layout/card_view_pref_bottom"
         android:title="@string/theme_settings_title"
         android:summary="@string/summary_placeholder"
         android:icon="@drawable/op_ic_homepage_shapeshifter_settings"
