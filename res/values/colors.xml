@@ -184,4 +184,10 @@
     <color name="settings_accent_color">@color/oneplus_accent_color</color>
     <color name="settingsHeaderColor">@*android:color/accent_device_default_light</color>
 
+    <!-- Custom preference cardView -->
+    <color name="colorAccentSettings">@*android:color/accent_device_default_light</color>
+    <color name="card_view_bg">#1B1B1B</color>
+    <color name="black">#FAFAFA</color>
+    <color name="off_black">#90FAFAFA</color>
+
 </resources>
