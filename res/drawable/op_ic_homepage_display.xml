@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android" android:tint="@color/settings_accent_color" android:height="54dp" android:width="54dp" android:viewportWidth="54" android:viewportHeight="54">
-    <path android:fillColor="#000000" android:pathData="M24.975,2.25V9H29.025V2.25H24.975ZM27,17.775V36.225C32.0948,36.225 36.225,32.0948 36.225,27C36.225,21.9052 32.0948,17.775 27,17.775ZM27,13.725C19.6684,13.725 13.725,19.6684 13.725,27C13.725,34.3316 19.6684,40.275 27,40.275C34.3316,40.275 40.275,34.3316 40.275,27C40.275,19.6684 34.3316,13.725 27,13.725ZM38.2969,12.84L43.0691,8.0677L45.9329,10.9315L41.1607,15.7037L38.2969,12.84ZM51.75,24.975H45V29.025H51.75V24.975ZM41.1607,38.2963L45.9329,43.0686L43.0691,45.9324L38.2969,41.1601L41.1607,38.2963ZM29.025,51.75V45H24.975V51.75H29.025ZM15.704,41.1601L10.9318,45.9324L8.068,43.0686L12.8402,38.2963L15.704,41.1601ZM2.25,29.025H9V24.975H2.25V29.025ZM12.8402,15.7037L8.068,10.9315L10.9318,8.0677L15.704,12.84L12.8402,15.7037Z" android:fillType="evenOdd"/>
-</vector>
+<!--
+  Copyright (C) 2021 The DotOS Project
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+       http://www.apache.org/licenses/LICENSE-2.0
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillAlpha="0.3"
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M18,9.52L18,6h-3.52L12,3.52 9.52,6L6,6v3.52L3.52,12 6,14.48L6,18h3.52L12,20.48 14.48,18L18,18v-3.52L20.48,12 18,9.52zM12,17.5c-3.03,0 -5.5,-2.47 -5.5,-5.5S8.97,6.5 12,6.5s5.5,2.47 5.5,5.5 -2.47,5.5 -5.5,5.5z"
+        android:strokeAlpha="0.3" />
+    <path
+        android:fillColor="?android:attr/colorAccent"
+        android:pathData="M20,8.69L20,4h-4.69L12,0.69 8.69,4L4,4v4.69L0.69,12 4,15.31L4,20h4.69L12,23.31 15.31,20L20,20v-4.69L23.31,12 20,8.69zM18,14.48L18,18h-3.52L12,20.48 9.52,18L6,18v-3.52L3.52,12 6,9.52L6,6h3.52L12,3.52 14.48,6L18,6v3.52L20.48,12 18,14.48zM12,6.5c-3.03,0 -5.5,2.47 -5.5,5.5s2.47,5.5 5.5,5.5 5.5,-2.47 5.5,-5.5 -2.47,-5.5 -5.5,-5.5zM12,15.5c-1.93,0 -3.5,-1.57 -3.5,-3.5s1.57,-3.5 3.5,-3.5 3.5,1.57 3.5,3.5 -1.57,3.5 -3.5,3.5z" />
+</vector> 
