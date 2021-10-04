@@ -111,6 +111,12 @@
         settings:controller="com.android.settings.notification.IncreasingRingPreferenceController" />
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="show_app_volume"
+            android:title="@string/show_app_volume_title"
+            android:summary="@string/show_app_volume_summary"
+            android:defaultValue="false" />     
+            
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="artwork_media_background"
         android:title="@string/artwork_media_background_title"
         android:summary="@string/artwork_media_background_summary"
