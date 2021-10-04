@@ -164,4 +164,25 @@
     <string name="artwork_media_background_title">Artwork media background</string>
     <string name="artwork_media_background_summary">Set media artwork as notification media background</string>   
     
+    <!-- Volume Panel Plugin -->
+    <string name="volume_panel">Volume panel style</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compact">Compact</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">Tiled</string>
+    <string name="volume_panel_miui">MIUI</string>
+    <string name="volume_panel_oos">OOS</string>
+    <string name="volume_panel_p404">P404</string>
+    <string name="volume_panel_ssos">ShapeShift</string>
+
+    <!-- Volume Panel Plugin Values -->
+    <string name="volume_panel_aosp_val" translatable="false">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_compact_val" translatable="false">co.potatoproject.plugin.volume.compact</string>
+    <string name="volume_panel_oreo_val" translatable="false">co.potatoproject.plugin.volume.oreo</string>
+    <string name="volume_panel_tiled_val" translatable="false">co.potatoproject.plugin.volume.tiled</string>
+    <string name="volume_panel_miui_val" translatable="false">co.potatoproject.plugin.volume.miui</string>
+    <string name="volume_panel_oos_val" translatable="false">co.potatoproject.plugin.volume.oos</string>
+    <string name="volume_panel_p404_val" translatable="false">co.potatoproject.plugin.volume.p404</string>
+    <string name="volume_panel_ssos_val" translatable="false">co.potatoproject.plugin.volume.ssos</string>
+
 </resources>
