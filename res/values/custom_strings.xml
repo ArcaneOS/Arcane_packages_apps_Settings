@@ -165,7 +165,7 @@
     <string name="artwork_media_background_summary">Set media artwork as notification media background</string>   
     
     <!-- Volume Panel Plugin -->
-    <string name="volume_panel">Volume panel style</string>
+    <string name="volume_panel">Volume panel Stuffs</string>
     <string name="volume_panel_aosp">AOSP</string>
     <string name="volume_panel_compact">Compact</string>
     <string name="volume_panel_oreo">Oreo</string>
