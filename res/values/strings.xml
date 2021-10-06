@@ -12210,7 +12210,8 @@
     <string name="bluetooth_phonebook_access_notification_content">A device wants to access your contacts and call log. Tap for details.</string>
     <!-- Bluetooth phonebook permission alert for dialog title [CHAR LIMIT=none] -->
     <string name="bluetooth_phonebook_access_dialog_title">Allow access to contacts and call log?</string>
-    <!-- Bluetooth phonebook permission alert for dialog content [CHAR LIMIT=none] -->
+    
+    <!-- Bluetooth phonebook permission alert for dialog content [CHAR LIMIT=none] -->    
     <string name="bluetooth_phonebook_access_dialog_content">A Bluetooth device, <xliff:g id="device_name" example="My device">%1$s</xliff:g>, wants to access your contacts and call log. This includes data about incoming and outgoing calls.\n\nYou haven\u2019t connected to <xliff:g id="device_name" example="My device">%2$s</xliff:g> before.</string>
 
     <!-- Label for button to not allow grant the permission for remote devices. [CHAR_LIMIT=50] -->
