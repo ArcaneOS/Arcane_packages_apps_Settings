@@ -136,15 +136,15 @@
 
     <!-- Arcane maintainer -->
     <string name="magus">Magus</string>
-    <string name="maintainer_name">dlwlrma123</string>
+    <string name="arcane_maintainer">Unofficial Maintainer</string>
     
     <!-- Arcane version -->
     <string name="arcane_version">ArcaneOS Version</string>
-    <string name="arcane_version_type">Wex</string>
+    <string name="arcane_codename">Wex</string>
     
     <!-- Arcane version -->
     <string name="build_type">Build Type</string>
-    <string name="build_type_summary">OFFICIAL</string>
+    <string name="build_release_type">UNOFFICIAL</string>
     
     <!-- Clock style -->
     <string name="clock_style_title">Clock style</string>

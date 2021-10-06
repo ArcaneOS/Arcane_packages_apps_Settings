@@ -32,21 +32,21 @@
     <Preference
         android:key="magus"
         android:title="@string/magus"
-        android:summary="@string/maintainer_name"
+        android:summary="@string/arcane_maintainer"
         settings:enableCopying="true" />
         
     <!-- Arcane Version -->
     <Preference
         android:key="arcane_version"
         android:title="@string/arcane_version"
-        android:summary="@string/arcane_version_type"
+        android:summary="@string/arcane_codename"
         settings:enableCopying="true" />
 
     <!-- Arcane Version -->
     <Preference
         android:key="arcane_build"
         android:title="@string/build_type"
-        android:summary="@string/build_type_summary"
+        android:summary="@string/build_release_type"
         settings:enableCopying="true" />
         
     <!-- Android version -->
