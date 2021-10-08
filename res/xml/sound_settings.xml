@@ -115,6 +115,13 @@
         android:title="@string/artwork_media_background_title"
         android:summary="@string/artwork_media_background_summary"
         android:defaultValue="false" />
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="qs_media_player"
+            android:title="@string/qs_media_player_title"
+            android:summaryOn="@string/qs_media_player_summary_on"
+            android:summaryOff="@string/qs_media_player_summary_off"
+            android:defaultValue="false" />
         
     <!-- Increasing ring volume -->
     <com.android.settings.notification.IncreasingRingVolumePreference
