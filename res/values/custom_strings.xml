@@ -197,7 +197,7 @@
     <!-- QS media player -->
     <string name="qs_media">QuickSettings Media</string>
     <string name="qs_media_player_title">Media player</string>
-    <string name="qs_media_player_summary_on">Show media player in QS\nRequires a SystemUI restart</string>
-    <string name="qs_media_player_summary_off">Show media player as a notification\nRequires a SystemUI restart</string>
+    <string name="qs_media_player_summary_on">Show media player in QS\nRequires System Reboot</string>
+    <string name="qs_media_player_summary_off">Show media player as a notification\nRequires System Reboot</string>
 
 </resources>
