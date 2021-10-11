@@ -21,33 +21,11 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
-
-    <!-- Arcane logo -->
-    <PreferenceScreen
-        android:key="arcane_logo"
-        android:enabled="false"
-        android:layout="@layout/arcane_logo" />
-
-    <!-- Arcane Maintainer -->
-    <Preference
-        android:key="magus"
-        android:title="@string/magus"
-        android:summary="@string/arcane_maintainer"
-        settings:enableCopying="true" />
-        
-    <!-- Arcane Version -->
-    <Preference
-        android:key="arcane_version"
-        android:title="@string/arcane_version"
-        android:summary="@string/arcane_codename"
-        settings:enableCopying="true" />
-
-    <!-- Arcane Version -->
-    <Preference
-        android:key="arcane_build"
-        android:title="@string/build_type"
-        android:summary="@string/build_release_type"
-        settings:enableCopying="true" />
+    <!-- ArcaneOS info -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="arcane_info"
+        android:layout="@layout/arcane_info"
+        android:selectable="false" />
         
     <!-- Android version -->
     <Preference

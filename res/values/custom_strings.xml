@@ -133,18 +133,6 @@
     <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
-
-    <!-- Arcane maintainer -->
-    <string name="magus">Magus</string>
-    <string name="arcane_maintainer">Unofficial Maintainer</string>
-    
-    <!-- Arcane version -->
-    <string name="arcane_version">ArcaneOS Version</string>
-    <string name="arcane_codename">Wex</string>
-    
-    <!-- Arcane version -->
-    <string name="build_type">Build Type</string>
-    <string name="build_release_type">UNOFFICIAL</string>
     
     <!-- Clock style -->
     <string name="clock_style_title">Clock style</string>
@@ -199,5 +187,17 @@
     <string name="qs_media_player_title">Media player</string>
     <string name="qs_media_player_summary_on">Show media player in QS\nRequires System Reboot</string>
     <string name="qs_media_player_summary_off">Show media player as a notification\nRequires System Reboot</string>
+
+    <!-- ArcaneOS versioning -->
+    <string name="arcane_version_title">Version</string>
+    <string name="arcane_device_title">Device</string>
+    <string name="arcane_release_type_title">Release type</string>
+    <string name="arcane_maintainer_title">Magus</string>
+    
+    <!-- About phone screen,  SELinux status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
 
 </resources>
