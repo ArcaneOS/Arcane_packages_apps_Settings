@@ -109,19 +109,6 @@
         android:defaultValue="false"
         android:order="-136"
         settings:controller="com.android.settings.notification.IncreasingRingPreferenceController" />
-            
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
-        android:key="artwork_media_background"
-        android:title="@string/artwork_media_background_title"
-        android:summary="@string/artwork_media_background_summary"
-        android:defaultValue="false" />
-
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
-            android:key="qs_media_player"
-            android:title="@string/qs_media_player_title"
-            android:summaryOn="@string/qs_media_player_summary_on"
-            android:summaryOff="@string/qs_media_player_summary_off"
-            android:defaultValue="false" />
         
     <!-- Increasing ring volume -->
     <com.android.settings.notification.IncreasingRingVolumePreference
@@ -270,11 +257,31 @@
 
     <PreferenceCategory
         android:key="volume_panel_stuff"
-        android:title="@string/volume_panel">
+        android:title="@string/arcane_media_category">
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="notification_sound_vib_screen_on"                                                            
+        android:title="@string/notification_sound_vib_screen_on_title"
+        android:summary="@string/notification_sound_vib_screen_on_summary"
+        android:defaultValue="true" />
+        
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="artwork_media_background"
+        android:title="@string/artwork_media_background_title"
+        android:summary="@string/artwork_media_background_summary"
+        android:defaultValue="false" />
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="qs_media_player"
+            android:title="@string/qs_media_player_title"
+            android:summaryOn="@string/qs_media_player_summary_on"
+            android:summaryOff="@string/qs_media_player_summary_off"
+            android:defaultValue="false" />
+            
      <com.android.settings.custom.preference.SystemSettingListPreference
             android:key="systemui_plugin_volume"
             android:title="@string/volume_panel"
+            android:summary="@string/volume_panel_plugin_summary"
             android:entries="@array/volume_panel_entries"
             android:entryValues="@array/volume_panel_values"
             android:defaultValue="@string/volume_panel_aosp_val" />

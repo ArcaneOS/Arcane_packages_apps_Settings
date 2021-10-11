@@ -40,6 +40,7 @@
     <Preference
         android:key="button_settings"
         android:title="@string/button_pref_title"
+        android:summary="@string/button_pref_summary"
         android:icon="@drawable/ic_button_settings"
         android:order="-249"
         android:fragment="com.android.settings.custom.buttons.ButtonSettings"/>
@@ -48,6 +49,7 @@
     <Preference
         android:key="statusbar_settings"
         android:title="@string/status_bar_title"
+        android:summary="@string/status_bar_summary"
         android:icon="@drawable/ic_settings_statusbar"
         android:order="-248"
         android:fragment="com.android.settings.custom.statusbar.StatusBarSettings" />

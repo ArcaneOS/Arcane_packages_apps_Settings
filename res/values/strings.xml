@@ -46,7 +46,7 @@
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
     <string name="header_category_wireless_networks">Wireless &amp; networks</string>
     <!-- Settings main menu category heading. System (Updates, data, accessibility, about phone). [CHAR LIMIT=40] -->
-    <string name="header_category_system">System</string>
+    <string name="header_category_system">Grimoire</string>
 
     <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
     <string name="radioInfo_service_in">In Service</string>
@@ -7563,7 +7563,7 @@
     handle actions such as open web page, making phone calls, default SMS apps [CHAR  LIMIT=40]-->
     <string name="app_default_dashboard_title">Default apps</string>
     <!-- Summary text for system preference tile, showing important setting items under system setting [CHAR LIMIT=NONE]-->
-    <string name="system_dashboard_summary">Languages, gestures, time, backup</string>
+    <string name="system_dashboard_summary">Arcane System Personalizations, time, etc.</string>
 
     <!-- Search strings -->
     <!-- Text to describe the search results fragment title [CHAR LIMIT=16] -->
@@ -12259,5 +12259,9 @@
     <!-- Allow to suppress notifications sound/vibration if screen is ON -->
     <string name="notification_sound_vib_screen_on_title">Active screen notification</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
-
+    
+    <!-- Grimoire Summary -->
+    <string name="button_pref_summary">Long press torch, power/volume buttons, power menu</string>
+    <string name="status_bar_summary">Statusbar icons, dt2s, network indicator</string>
+    <string name="volume_panel_plugin_summary">Beautify volume panel</string>
 </resources>
