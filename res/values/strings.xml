@@ -12249,13 +12249,6 @@
       <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
       <string name="total_ram">Total RAM</string>
 
-    <!-- Back Gestures -->
-     <string name="smallest_tick_label">Off</string>
-     <string name="greatest_tick_label">Half screen</string>
-     <string name="gesture_back_deadzone_label">Dead zone</string>
-     <string name="back_sensitivity_dialog_message_cust">\nUse the first and second seekbar to configure back swipe sensitivity, the last seekbar to set a dead area on top of the screen where the swipe cannot be triggered, to avoid conflicts with in-app gestures.</string>
-     
-
     <!-- Allow to suppress notifications sound/vibration if screen is ON -->
     <string name="notification_sound_vib_screen_on_title">Active screen notification</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
@@ -12264,4 +12257,5 @@
     <string name="button_pref_summary">Long press torch, power/volume buttons, power menu</string>
     <string name="status_bar_summary">Statusbar icons, dt2s, network indicator</string>
     <string name="volume_panel_plugin_summary">Beautify volume panel</string>
+
 </resources>
