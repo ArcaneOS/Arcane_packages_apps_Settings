@@ -21,7 +21,7 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.widget.Toast;
 
-import androidx.preference.DropDownPreference;
+import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.SwitchPreference;
 
@@ -36,9 +36,9 @@ public class NetworkTrafficSettings extends SettingsPreferenceFragment
 
     private static final String TAG = "NetworkTrafficSettings";
 
-    private DropDownPreference mNetTrafficMode;
+    private ListPreference mNetTrafficMode;
     private SwitchPreference mNetTrafficAutohide;
-    private DropDownPreference mNetTrafficUnitType;
+    private ListPreference mNetTrafficUnitType;
 
     private boolean mHasNotch;
 
