@@ -32,6 +32,12 @@
         android:summary="@string/less_boring_heads_up_summary"
         android:defaultValue="false" />
         
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="qsclock_left"
+        android:title="@string/qsclock_left_title"
+        android:summary="@string/qsclock_left_summary"
+        android:defaultValue="false" /> 
+        
     </PreferenceCategory>
 
     <PreferenceCategory
