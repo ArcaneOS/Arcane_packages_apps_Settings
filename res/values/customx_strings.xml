@@ -309,4 +309,12 @@
     <!-- Qs Clock on left-->
     <string name="qsclock_left_title">QS clock alignment</string>
     <string name="qsclock_left_summary">Align QS clock to the left\nTurn it off to revert to default position</string>
+    
+    <string name="header_icons_style">Colored Header Icons</string>
+    <string name="header_icons_style_summary">Choose the style of your notification headers icons (requires system restart)</string>
+
+   <!-- Colored Statusbar Icons -->
+    <string name="statusbar_icons_style">Colored Statusbar Icons</string>
+    <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires system restart)</string>
+
 </resources>
