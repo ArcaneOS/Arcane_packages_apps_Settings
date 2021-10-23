@@ -3496,14 +3496,14 @@
         <!-- Begin exTHmUI Settings -->
         <activity android:name="Settings$exTHmSettingsActivity"
                 android:label="@string/exthmui_settings_title"
-                android:icon="@drawable/ic_homepage_exthmui"
+                android:icon="@drawable/ic_settings_gaming"
                 android:taskAffinity="com.android.settings"
                 android:parentActivityName="Settings">
             <intent-filter android:priority="1">
                 <action android:name="com.android.settings.action.SETTINGS"/>
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
-                       android:value="com.android.settings.category.ia.homepage"/>
+                       android:value="com.android.settings.category.ia.system" />
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="org.exthmui.settings.exTHmSettings" />
             <meta-data android:name="com.android.settings.title"
