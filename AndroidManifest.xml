@@ -3510,6 +3510,7 @@
                        android:resource="@string/exthmui_settings_title" />
             <meta-data android:name="com.android.settings.summary"
                        android:resource="@string/exthmui_settings_summary"/>
+            <meta-data android:name="com.android.settings.order" android:value="-280"/>
         </activity>
     </application>
 </manifest>
