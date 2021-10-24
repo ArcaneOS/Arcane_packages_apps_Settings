@@ -48,6 +48,8 @@ import com.android.settingslib.development.DevelopmentSettingsEnabler;
 
 import com.google.android.setupcompat.util.WizardManagerHelper;
 
+import java.util.Random;
+
 public class BuildNumberPreferenceController extends BasePreferenceController implements
         LifecycleObserver, OnStart {
 
@@ -64,6 +66,45 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
     private boolean mDebuggingFeaturesDisallowedBySystem;
     private int mDevHitCountdown;
     private boolean mProcessingLastDevHit;
+
+    public final static java.lang.String[] insults = {
+            "anak, itabi mo ako na",
+            "ginagawa mue??",
+            "dinemunyu ang akin kamay",
+            "pano mo nasabe!?",
+            "Nasan ang sabaw!!!???!",
+            "Iwan mo lahat kahit pamilya mo pa",
+            "paggising mo straight ka dapat sa goal mo",
+            "Bat mo nilalabas ung @!#% mo???!?",
+            "Put@ng in@, ano ba toooooooo!!??",
+            "Alam ko developer ka, kasi advanced ako magisip",
+            "taph taph taph taph, dubidubidapdapadapabipbipbipbipdubidudu",
+            "U broked ur device shutting down in 5 secs, wala na pinish na",
+            "All around the worrrlldddd",
+            "Ang hinihingi ko ay bulalo, bakit bibigyan ako ng nodols",
+            "Ako ang masama, ikaw ang mabuti?, *nagrap",
+            "Ooops tama na masama makikipag-away",
+            "luh bhieee",
+            "Kakacellphone mo yan! - nanay",
+            "May nararamdaman akong kakaiba",
+            "Basa ang tubig",
+            "Yung dalawang anak kong panganay",
+            "I have three daughters, lahat sila babae",
+            "Dunk it Jonathan!",
+            "Weh di nga?",
+            "T@ng!n@ mo jordan, inagaw mo sakin si kate",
+            "ayoooko naaa ahhhhh wag ka na magpaliwanag ahhhhhh ahhhhhhhhhh",
+            "Bakit ka nangiistorbo ng tulog!???",
+            "Obvious ba?",
+            "Ang Bulalo sinupsupsop",
+            "Tara shabu, shabuhay ko yieeeeeee",
+            "listen look and listen and learn",
+            "Ay Akala ko may Subdivision dito",
+            "OO DDS ako, Dingdong Dantes Supporter",
+            "You're Road",
+            "Hindi ako pumunta rito para makipag-away",
+            "Bakit ako Matatakot?",
+            "Maganda to b0b0",};
 
     public BuildNumberPreferenceController(Context context, String key) {
         super(context, key);
@@ -197,7 +238,9 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
             if (mDevHitToast != null) {
                 mDevHitToast.cancel();
             }
-            mDevHitToast = Toast.makeText(mContext, R.string.show_dev_already,
+           Random randomInsult = new Random();
+            final int toasts = randomInsult.nextInt(insults.length);
+            mDevHitToast = Toast.makeText(mContext, insults[toasts],
                     Toast.LENGTH_LONG);
             mDevHitToast.show();
             mMetricsFeatureProvider.action(
