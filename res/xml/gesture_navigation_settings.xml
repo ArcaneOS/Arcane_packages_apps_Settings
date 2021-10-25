@@ -26,12 +26,14 @@
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="navigation_bar_hint"
         android:title="@string/show_navbar_gesture_bar_title"
+        settings:iconSpaceReserved="false"
         android:summary="@string/show_navbar_gesture_bar_summary"
         android:defaultValue="true" />
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="navigation_bar_ime_space"
         android:title="@string/navigation_bar_ime_space_title"
+        settings:iconSpaceReserved="false"
         android:summary="@string/navigation_bar_ime_space_summary"
         android:defaultValue="true" />
         
@@ -43,6 +45,7 @@
         <com.android.settings.widget.LabeledSeekBarPreference
             android:key="gesture_left_back_sensitivity"
             android:title="@string/left_edge"
+            settings:iconSpaceReserved="false"
             android:max="3"
             android:selectable="true"
             settings:textStart="@string/low_label"
@@ -51,6 +54,7 @@
         <com.android.settings.widget.LabeledSeekBarPreference
             android:key="gesture_right_back_sensitivity"
             android:title="@string/right_edge"
+            settings:iconSpaceReserved="false"
             android:max="3"
             android:selectable="true"
             settings:textStart="@string/low_label"
@@ -59,6 +63,7 @@
         <com.android.settings.widget.LabeledSeekBarPreference
             android:key="gesture_back_height"
             android:title="@string/back_height_message"
+            settings:iconSpaceReserved="false"
             android:max="3"
             android:selectable="true"
             settings:textStart="@string/back_height_low_label"
@@ -68,12 +73,14 @@
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="back_gesture_haptic"
         android:title="@string/back_gesture_haptic_title"
+        settings:iconSpaceReserved="false"
         android:summary="@string/back_gesture_haptic_summary"
         android:defaultValue="false" />
         
     <com.android.settings.widget.LabeledSeekBarPreference
         android:key="gesture_navbar_length"
         android:title="@string/navbar_length"
+        settings:iconSpaceReserved="false"
         android:max="3"
         android:defaultValue="1"
         android:selectable="true"

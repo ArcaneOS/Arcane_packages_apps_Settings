@@ -23,12 +23,14 @@
     <Preference
         android:key="gesture_assist_input_summary"
         android:title="@string/assist_gesture_title"
+        settings:iconSpaceReserved="false"
         android:fragment="com.android.settings.gestures.AssistGestureSettings"
         settings:controller="com.android.settings.gestures.AssistGestureSettingsPreferenceController" />
 
     <Preference
         android:key="gesture_swipe_down_fingerprint_input_summary"
         android:title="@string/fingerprint_swipe_for_notifications_title"
+        settings:iconSpaceReserved="false"
         android:fragment="com.android.settings.gestures.SwipeToNotificationSettings"
         settings:searchable="false"
         settings:controller="com.android.settings.gestures.SwipeToNotificationPreferenceController" />
@@ -36,6 +38,7 @@
     <Preference
         android:key="gesture_double_tap_power_input_summary"
         android:title="@string/double_tap_power_for_camera_title"
+        settings:iconSpaceReserved="false"
         android:fragment="com.android.settings.gestures.DoubleTapPowerSettings"
         settings:searchable="false"
         settings:controller="com.android.settings.gestures.DoubleTapPowerPreferenceController" />
@@ -43,6 +46,7 @@
     <Preference
         android:key="gesture_double_twist_input_summary"
         android:title="@string/double_twist_for_camera_mode_title"
+        settings:iconSpaceReserved="false"
         android:fragment="com.android.settings.gestures.DoubleTwistGestureSettings"
         settings:searchable="false"
         settings:controller="com.android.settings.gestures.DoubleTwistPreferenceController" />
@@ -50,6 +54,7 @@
     <Preference
         android:key="gesture_system_navigation_input_summary"
         android:title="@string/system_navigation_title"
+        settings:iconSpaceReserved="false"
         android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings"
         settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"
         settings:keywords="@string/keywords_system_navigation" />
@@ -57,6 +62,7 @@
     <Preference
         android:key="gesture_tap_screen_input_summary"
         android:title="@string/ambient_display_tap_screen_title"
+        settings:iconSpaceReserved="false"
         android:fragment="com.android.settings.gestures.TapScreenGestureSettings"
         settings:searchable="false"
         settings:controller="com.android.settings.gestures.TapScreenGesturePreferenceController" />
@@ -64,6 +70,7 @@
     <Preference
         android:key="gesture_double_tap_screen_input_summary"
         android:title="@string/ambient_display_title"
+        settings:iconSpaceReserved="false"
         android:fragment="com.android.settings.gestures.DoubleTapScreenSettings"
         settings:searchable="false"
         settings:controller="com.android.settings.gestures.DoubleTapScreenPreferenceController" />
@@ -71,6 +78,7 @@
     <Preference
         android:key="gesture_pick_up_input_summary"
         android:title="@string/ambient_display_pickup_title"
+        settings:iconSpaceReserved="false"
         android:fragment="com.android.settings.gestures.PickupGestureSettings"
         settings:searchable="false"
         settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
@@ -78,24 +86,28 @@
     <Preference
         android:key="gesture_prevent_ringing_summary"
         android:title="@string/gesture_prevent_ringing_screen_title"
+        settings:iconSpaceReserved="false"
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
 
     <Preference
         android:key="gesture_power_menu_summary"
         android:title="@string/power_menu_setting_name"
+        settings:iconSpaceReserved="false"
         android:fragment="com.android.settings.gestures.PowerMenuSettings"
         settings:controller="com.android.settings.gestures.PowerMenuPreferenceController" />
 
     <Preference
         android:key="gesture_swipe_to_screenshot_summary"
         android:title="@string/swipe_to_screenshot_gesture_title"
+        settings:iconSpaceReserved="false"
         android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
         settings:controller="com.android.settings.gestures.SwipeToScreenshotGesturePreferenceController" />
 
     <com.android.settings.custom.preference.RemotePreference
             android:key="touchscreen_gesture_settings"
             android:title="@string/touchscreen_gesture_settings_title"
+            settings:iconSpaceReserved="false"
             android:summary="@string/touchscreen_gesture_settings_summary"
             settings:requiresFeature="lineagehardware:FEATURE_TOUCHSCREEN_GESTURES">
         <intent
@@ -107,6 +119,7 @@
     <com.android.settings.custom.preference.RemotePreference
             android:key="device_touchscreen_gesture_settings"
             android:title="@string/touchscreen_gesture_settings_title"
+            settings:iconSpaceReserved="false"
             android:summary="@string/touchscreen_gesture_settings_summary"
             settings:replacesKey="touchscreen_gesture_settings"
             settings:requiresAction="org.lineageos.settings.device.GESTURE_SETTINGS">
