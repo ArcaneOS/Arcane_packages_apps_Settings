@@ -103,6 +103,15 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
             "OO DDS ako, Dingdong Dantes Supporter",
             "You're Road",
             "Hindi ako pumunta rito para makipag-away",
+            "Oh ano ano, natameme kayo no",
+            "Natutulog ako, Obvious ba!??",
+            "Pastilan, so weird nyahahahaahahahaahahaha",
+            "yare yare daze",
+            "omae wa mou shindeiru",
+            "Nico nico nii! Anata no haato ni nico nico nii! Egao todokeru Yazawa Nico nico! Nico nii te oboeteru love nico!",
+            "What you gonna do? what you gonna do wid dat big pat battttt wigo wigo wigowi",
+            "Rastaman for senator! eto? eto eto yung gabay ko",
+            "I am half human, half zombie!",
             "Bakit ako Matatakot?",
             "Maganda to b0b0",};
 
