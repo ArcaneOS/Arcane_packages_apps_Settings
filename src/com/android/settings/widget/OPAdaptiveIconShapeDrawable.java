@@ -48,7 +48,7 @@ public class OPAdaptiveIconShapeDrawable extends ShapeDrawable {
         getPaint().setAntiAlias(true);
         getPaint().setStyle(Paint.Style.STROKE);
         getPaint().setStrokeWidth(3.0f);
-        getPaint().setColor(resources.getColor(R.color.opShapeIcon));
+        getPaint().setColor(resources.getColor(R.color.settingsHeaderColor));
         setShape(new PathShape(path, 100.0f, 100.0f));
     }
 }
