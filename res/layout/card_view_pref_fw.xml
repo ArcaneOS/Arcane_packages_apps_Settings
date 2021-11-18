@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/card_view_bg_bottom"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/card_height_settings"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@android:id/icon"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="50.0dip">
+        <TextView
+            android:textSize="18.0sp"
+            android:textColor="@color/black"
+            android:id="@android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@color/off_black"
+            android:id="@android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

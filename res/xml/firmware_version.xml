@@ -31,6 +31,8 @@
     <Preference
         android:key="os_firmware_version"
         android:title="@string/firmware_version"
+        android:layout="@layout/card_view_pref_fw"
+        android:icon="@drawable/about_android_version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:searchable="false"
@@ -40,6 +42,8 @@
     <Preference
         android:key="security_key"
         android:title="@string/security_patch"
+        android:layout="@layout/card_view_pref_fw"
+        android:icon="@drawable/about_device_status"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
 
@@ -55,6 +59,8 @@
     <Preference
         android:key="base_band"
         android:title="@string/baseband_version"
+        android:layout="@layout/card_view_pref_fw"
+        android:icon="@drawable/about_model_hardware"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:enableCopying="true"
@@ -64,6 +70,8 @@
     <Preference
         android:key="kernel_version"
         android:title="@string/kernel_version"
+        android:layout="@layout/card_view_pref_fw"
+        android:icon="@drawable/about_legal_crap"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:enableCopying="true"
@@ -73,6 +81,8 @@
     <Preference
         android:key="os_build_number"
         android:title="@string/build_number"
+        android:layout="@layout/card_view_pref_fw"
+        android:icon="@drawable/about_build_number"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:enableCopying="true"
