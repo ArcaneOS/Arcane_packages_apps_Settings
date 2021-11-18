@@ -139,6 +139,7 @@
     <com.android.settings.custom.preference.SecureSettingSwitchPreference
         android:key="qs_brightness_position_bottom"
         android:title="@string/qs_brightness_position_bottom_title"
+        settings:iconSpaceReserved="false"
         android:summary="@string/qs_brightness_position_bottom_summary"
         android:defaultValue="false" />     
         

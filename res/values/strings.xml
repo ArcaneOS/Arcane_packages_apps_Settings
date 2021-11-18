@@ -12264,7 +12264,7 @@
     <!-- Grimoire Summary -->
     <string name="button_pref_summary">Long press torch, power/volume buttons, power menu</string>
     <string name="status_bar_summary">Statusbar icons, dt2s, network indicator</string>
-    <string name="volume_panel_plugin_summary">Beautify volume panel</string>
+    <string name="volume_panel_plugin_summary">Beautify volume panel, System Restart is Required for less buggy application</string>
 
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
     <string name="duration_less_than_one_minute">Less than 1 minute</string>
