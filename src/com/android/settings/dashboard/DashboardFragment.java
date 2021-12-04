@@ -511,14 +511,11 @@ public abstract class DashboardFragment extends SettingsPreferenceFragment
                         mDashboardFeatureProvider.bindPreferenceToTileAndGetObservers(getActivity(),
                                 forceRoundedIcons, getMetricsCategory(), pref, tile, key,
                                 mPlaceholderPreferenceController.getOrder());
-		String prefStr = pref.getKey().toString();
+  		String prefStr = pref.getKey().toString();
 		if (prefStr.equals("dashboard_tile_pref_com.google.android.apps.wellbeing.settings.TopLevelSettingsActivity")){
-		pref.setLayoutResource(R.layout.card_view_pref_top);
-  } else if (prefStr.equals("dashboard_tile_pref_com.google.android.gms.app.settings.GoogleSettingsIALink")){
-  pref.setLayoutResource(R.layout.card_view_pref_middle);
-  } else if (prefStr.equals("dashboard_tile_pref_org.lineageos.settings.device.DeviceSettingsActivity")){
-  pref.setLayoutResource(R.layout.card_view_pref_bottom);
-  }
+		pref.setLayoutResource(R.layout.card_view_pref_top);pref.setIcon(R.drawable.op_ic_homepage_wellbeing_settings);
+		} else if (prefStr.equals("dashboard_tile_pref_com.google.android.gms.app.settings.GoogleSettingsIALink")){
+		pref.setLayoutResource(R.layout.card_view_pref_bottom);pref.setIcon(R.drawable.op_ic_homepage_google_settings);}
                 screen.addPreference(pref);
                 registerDynamicDataObservers(observers);
                 mDashboardTilePrefKeys.put(key, observers);

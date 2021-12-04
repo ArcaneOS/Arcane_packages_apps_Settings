@@ -362,11 +362,8 @@ public class DashboardFeatureProviderImpl implements DashboardFeatureProvider {
         final Icon tileIcon = tile.getIcon(preference.getContext());
         if (tileIcon != null) {
             Drawable iconDrawable = tileIcon.loadDrawable(preference.getContext());
-            if ("com.google.android.gms".equals(tile.getPackageName()) && "Google".equalsIgnoreCase(tile.getTitle(preference.getContext()).toString())) {
-                iconDrawable = preference.getContext().getDrawable(R.drawable.op_ic_homepage_google_settings);
-            } else if ("com.google.android.apps.wellbeing".equals(tile.getPackageName())) {
-                iconDrawable = preference.getContext().getDrawable(R.drawable.op_ic_homepage_wellbeing_settings);
-            } else if (forceRoundedIcon && !TextUtils.equals(mContext.getPackageName(), tile.getPackageName())) {
+           if (forceRoundedIcon
+                    && !TextUtils.equals(mContext.getPackageName(), tile.getPackageName())) {
                 iconDrawable = new AdaptiveIcon(mContext, iconDrawable);
                 ((AdaptiveIcon) iconDrawable).setBackgroundColor(mContext, tile);
             }
